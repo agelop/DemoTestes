@@ -1,3 +1,5 @@
+# Este é o primeiro feature file
+
 Feature: Register new users
 
   Scenario: New user enters Register
