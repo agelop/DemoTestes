@@ -15,8 +15,6 @@ public class StepDefinitions {
 	
 	WebDriver driver;
 	WebElement RegisterLink;	
-	
-	
 
 @Given("^The user is on the \"([^\"]*)\" page$")
 public void the_user_is_on_the_page(String arg1) throws Throwable {
@@ -26,8 +24,6 @@ public void the_user_is_on_the_page(String arg1) throws Throwable {
 	driver = new FirefoxDriver();
 	driver.get("http://newtours.demoaut.com");
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	
-
 }
 
 @When("^I click on register link$")
